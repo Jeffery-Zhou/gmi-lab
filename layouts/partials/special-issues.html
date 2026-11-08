@@ -1,0 +1,16 @@
+{{ with .Params.call_for_papers }}
+  <section class="page-special-issues" aria-label="Special Issues">
+    <p class="eyebrow">Open call · 专刊征稿</p>
+    <div class="special-issues">
+      {{ range .issues }}
+        <article class="special-issue">
+          <div class="issue-details">
+            <span class="issue-type">Special Issue</span>
+            <h3><a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .title }} <span aria-hidden="true">↗</span></a></h3>
+            {{ if .journal_link }}<a class="issue-journal" href="{{ .journal_link }}" target="_blank" rel="noopener noreferrer">{{ .journal }}</a>{{ else }}<p class="issue-journal">{{ .journal }}</p>{{ end }}
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

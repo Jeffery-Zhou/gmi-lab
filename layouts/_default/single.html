@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <header class="page-hero">
+    <div class="page-orb"></div>
+    <div class="shell page-hero-inner">
+      <p class="eyebrow">{{ .Params.eyebrow | default site.Params.labName }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="page-deck">{{ . }}</p>{{ end }}
+    </div>
+  </header>
+  <article class="shell content-page reveal">
+    {{ .Content }}
+  </article>
+{{ end }}

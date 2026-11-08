@@ -1,0 +1,29 @@
+<header class="site-header" data-header>
+  <div class="shell header-top">
+    <a class="brand" href="{{ "/" | relURL }}" aria-label="GMI Lab home">
+      <img class="brand-logo" src="{{ "images/logos/gmi-lab-logo-v12-grape.svg" | relURL }}" alt="GMI Lab — General Manipulation Intelligence" width="2172" height="724">
+    </a>
+    <div class="lab-title">
+      <span>General Manipulation</span>
+      <strong>Intelligence</strong>
+    </div>
+    <div class="header-actions">
+      {{/* 所有页面右上角的大学 Logo：替换图片时只需要修改下面的 src。 */}}
+      <div class="university-logo">
+        <img src="{{ "images/logos/gbu-logo.png" | relURL }}" alt="Great Bay University · 大湾区大学" width="1800" height="730">
+      </div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="sr-only">Open navigation</span>
+        <i></i><i></i><i></i>
+      </button>
+    </div>
+  </div>
+  <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-menu>
+    <div class="shell nav-inner">
+      {{ range site.Menus.main }}
+        {{ $active := or ($.IsMenuCurrent .Menu .) ($.HasMenuCurrent .Menu .) }}
+        <a href="{{ .URL }}" {{ if $active }}class="active" aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </div>
+  </nav>
+</header>

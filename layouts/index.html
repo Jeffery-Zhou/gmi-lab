@@ -1,0 +1,54 @@
+{{ define "main" }}
+  {{ $banners := slice }}
+  {{ range readDir "static/images/home_banner" }}
+    {{ if and (not .IsDir) (findRE `^\d+-.*\.(jpg|JPG|jpeg|JPEG|mp4)$` .Name) }}
+      {{ $banners = $banners | append (dict "name" .Name "order" (int (index (split .Name "-") 0))) }}
+    {{ end }}
+  {{ end }}
+  {{ range .Params.extra_banners }}
+    {{ $banners = $banners | append . }}
+  {{ end }}
+  {{ $banners = sort $banners "order" }}
+  <section class="home-reel" aria-label="GMI Lab research and community" aria-roledescription="carousel" data-carousel tabindex="0">
+    <h1 class="sr-only">General Manipulation Intelligence Lab</h1>
+    <div class="reel-window">
+      <div class="reel-track" data-track>
+        {{ range $index, $banner := $banners }}
+          {{ $stem := replaceRE `\.[^.]+$` "" .name }}
+          {{ $caption := .caption | default (index $.Params.banner_captions (string .order)) | default (replaceRE `^\d+-` "" $stem | humanize) }}
+          <figure class="reel-slide{{ if eq $index 0 }} active{{ end }}" data-slide role="group" aria-roledescription="slide" aria-label="{{ add $index 1 }} of {{ len $banners }}: {{ $caption }}" aria-hidden="{{ if eq $index 0 }}false{{ else }}true{{ end }}">
+            <div class="reel-media">
+              {{ if strings.HasSuffix .name ".mp4" }}
+                {{ $videoSrc := .src | default (printf "images/home_banner/%s" .name | relURL) }}
+                {{ $poster := .poster | default "" }}
+                {{ if not .src }}{{ $poster = printf "images/home_banner_preview/%s.jpg" $stem | relURL }}{{ end }}
+                <video data-video data-src="{{ $videoSrc }}"{{ with $poster }} poster="{{ . }}"{{ end }} muted playsinline preload="none" aria-label="{{ $caption }}"></video>
+              {{ else }}
+                <img src="{{ printf "images/home_banner_preview/%s.webp" $stem | relURL }}" alt="{{ $caption }}" {{ if eq $index 0 }}fetchpriority="high"{{ else }}loading="lazy"{{ end }}>
+              {{ end }}
+            </div>
+            <figcaption>{{ $caption }}</figcaption>
+          </figure>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="intro shell section-space reveal">
+    <div class="section-label"><span>01</span> Lab introduction</div>
+    <div class="intro-grid">
+      <div class="prose lead-copy">{{ .Content }}</div>
+    </div>
+  </section>
+
+  <section class="sponsors shell section-space reveal">
+    <div class="section-label"><span>02</span> Sponsors & supporters</div>
+    <ul class="sponsors-grid" aria-label="Industry and academic partners">
+      {{ range .Params.sponsors }}
+        <li>
+          <img src="{{ replace .image "/partners/" "/partners/compact/" | relURL }}" alt="{{ .name }}" loading="lazy">
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}

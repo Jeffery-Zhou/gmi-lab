@@ -1,0 +1,505 @@
+{
+  "source": "Google Scholar text supplied by Peng Zhou in this chat",
+  "profile_url": "https://scholar.google.com/citations?user=y8CcXFoAAAAJ&hl=en",
+  "groups": [
+    {
+      "title": "Books & Long-form Works",
+      "papers": [
+        {
+          "year": 2026,
+          "type": "B",
+          "title": "Robotics in Granular Materials: Modeling, Perception, Locomotion and Manipulation",
+          "authors": "Z Zhang, P Zhou, J Pan, C Yang",
+          "venue": "Springer Nature"
+        },
+        {
+          "year": 2026,
+          "type": "B",
+          "title": "Advancements in Robotics Perception, Manipulation, and Interaction",
+          "authors": "P Zhou, A Duan, L Lu, J Xu, W Ma, D Navarro-Alarcon",
+          "venue": "MDPI-Multidisciplinary Digital Publishing Institute"
+        },
+        {
+          "year": 2022,
+          "type": "T",
+          "title": "Lageo: a latent and geometrical framework for path and manipulation planning",
+          "authors": "P Zhou",
+          "venue": "Hong Kong Polytechnic University"
+        }
+      ]
+    },
+    {
+      "title": "Journal Papers",
+      "papers": [
+        {
+          "year": 2026,
+          "type": "J",
+          "title": "VISCA: Velocity-Field-Inspired Shape Control Architecture for Deformable Objects",
+          "authors": "N Han, F Wang, C Yang, YH Liu, P Zhou, D Navarro-Alarcon",
+          "venue": "IEEE Transactions on Industrial Electronics"
+        },
+        {
+          "year": 2026,
+          "type": "J",
+          "title": "Non-prehensile tool-object manipulation by integrating llm-based planning and manoeuvrability-driven controls",
+          "authors": "HY Lee, P Zhou*, A Duan, W Ma, C Yang, D Navarro-Alarcon",
+          "venue": "Robotics and Computer-Integrated Manufacturing 100, 103231"
+        },
+        {
+          "year": 2026,
+          "type": "J",
+          "title": "Learning to Count Without Labels: Self-Supervised Skill Abstraction and Bayesian Counting for Garment Production Monitoring",
+          "authors": "Z Li, Y Wen, L Yang, J Pan, P Zhou",
+          "venue": "IEEE Transactions on Industrial Informatics"
+        },
+        {
+          "year": 2026,
+          "type": "J",
+          "title": "World models for robotic manipulation: A survey",
+          "authors": "F Wang, Z Wang, S Liu, P Zhou",
+          "venue": "SmartBot, e70053"
+        },
+        {
+          "year": 2026,
+          "type": "J",
+          "title": "LLM-driven symbolic planning and hierarchical imitation learning for long-horizon deformable object assembly",
+          "authors": "J Qi, L Lu, F Wang, HY Lee, D Navarro-Alarcon, Z Zhang, P Zhou*",
+          "venue": "Robotics and Computer-Integrated Manufacturing 97, 103096"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "A Hierarchical Laser Control Strategy for Spatially Uniform Thermal Dose Delivery in Laser-Induced Thermal Therapy",
+          "authors": "J Wu, M Muddassir, Q Li, NA D., P Zhou*",
+          "venue": "IEEE/ASME transactions on mechatronics"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "BagIt! An Adaptive Dual-Arm Manipulation of Fabric Bags for Object Bagging",
+          "authors": "P Zhou, Q Jiaming, W Hongmin, W Chen, C Yizhou, Z Zhang",
+          "venue": "IEEE Robotics and Automation Letters",
+          "award": "IROS Workshop Best Paper Finalist"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "机器人操纵的触觉感知技术综述",
+          "authors": "胡俊， 李仲萱， 齐佳明， 吴鸿敏， 周鹏",
+          "venue": "自动化与信息工程"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "AuSoScan: Automatic scoliosis assessment by ultrasound scanning with soft contact control",
+          "authors": "A Duan, W Liuchen, P Zhou, D Song, C Yang, Y Zheng, ...",
+          "venue": "IEEE/ASME transactions on mechatronics"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "A Coarse-to-fine Robotic Fabric Alignment System Integrating Visual Servoing and Admittance Control",
+          "authors": "J Qi, L Lu, L Yang, Y Ding, P Zheng, D Navarro-Alarcon, J Pan, P Zhou*",
+          "venue": "IEEE Transactions on Automation Science and Engineering"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "A Joint Learning of Force Feedback of Robotic Manipulation and Textual Cues for Granular Materials Classification",
+          "authors": "Z Zhang, G Chen, W Chen, R Jia, G Chen, L Zhang, J Pan, P Zhou*",
+          "venue": "IEEE Robotics and Automation Letters, 1-8"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "Explicit-implicit subgoal planning for long-horizon tasks with sparse rewards",
+          "authors": "F Wang, A Duan, P Zhou, S Huo, G Guo, C Yang, D Navarro-Alarcon",
+          "venue": "IEEE Transactions on Automation Science and Engineering 22, 16038-16049"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "Iterative shaping of multi-particle aggregates based on action trees and vlm",
+          "authors": "HY Lee, P Zhou, A Duan, C Yang, D Navarro-Alarcon",
+          "venue": "IEEE Robotics and Automation Letters 10 (7), 7102-7109"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "TEVIO: Thermal-aided event-based visual–inertial odometry for robust state estimation in challenging environments",
+          "authors": "G Gong, F Hu, F Wang, M Muddassir, P Zhou, L Li, Q Wang, Z He, ...",
+          "venue": "IEEE Transactions on Instrumentation and Measurement 74, 1-11"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "Rearranging Deformable Linear Objects for Implicit Goals with Self‐Supervised Planning and Control",
+          "authors": "S Huo, F Hu, F Wang, L Hu, P Zhou, J Zhu, H Wang, D Navarro‐Alarcon",
+          "venue": "Advanced Intelligent Systems 7 (2), 2400330"
+        },
+        {
+          "year": 2025,
+          "type": "J",
+          "title": "Acceleration-Level Optimization Control for Dynamic Robotic Manipulation with RCM Constraints",
+          "authors": "",
+          "venue": ""
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Bimanual deformable bag manipulation using a structure-of-interest based neural dynamics model",
+          "authors": "P Zhou, P Zheng, J Qi, C Li, HY Lee, Y Pan, C Yang, D Navarro-Alarcon, ...",
+          "venue": "IEEE/ASME transactions on mechatronics"
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Efficient planar fabric repositioning: Deformation-aware RRT* for non-prehensile fabric manipulation",
+          "authors": "Y Wang, L Yang, P Zhou, J Qi, L Lu, J Zhu, J Pan",
+          "venue": "IEEE Robotics and Automation Letters 9 (12), 11258-11265"
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Reactive human–robot collaborative manipulation of deformable linear objects using a new topological latent control model",
+          "authors": "P Zhou, P Zheng, J Qi, C Li, HY Lee, A Duan, L Lu, Z Li, L Hu, ...",
+          "venue": "Robotics and Computer-Integrated Manufacturing 88, 102727"
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Model predictive manipulation of compliant objects with multi-objective optimizer and adversarial network for occlusion compensation",
+          "authors": "J Qi, G Ran, H Gao, P Wang, D Li, Y Gao, D Navarro-Alarcon, P Zhou*",
+          "venue": "ISA transactions 150, 359-373"
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Unleashing mixed-reality capability in deep reinforcement learning-based robot motion generation towards safe human–robot collaboration",
+          "authors": "C Li, P Zheng, P Zhou, Y Yin, CKM Lee, L Wang",
+          "venue": "Journal of Manufacturing Systems 74, 411-421"
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Safe learning by constraint-aware policy optimization for robotic ultrasound imaging",
+          "authors": "A Duan, C Yang, J Zhao, S Huo, P Zhou, W Ma, Y Zheng, ...",
+          "venue": "IEEE Transactions on Automation Science and Engineering 22, 2349-2360"
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Interactive Perception for Deformable Object Manipulation",
+          "authors": "P Zhou, Z Weng, H Yin, A Kravberg, A Varava, D Navarro-Alarcon, ...",
+          "venue": "IEEE Robotics and Automation Letters 9 (9), 7763 - 7770"
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Robust Grasping by Bimanual Robots With Stable Parameterization-Based Contact Servoing",
+          "authors": "A Duan, S Huo, H Lee, P Zhou, J Romero, C Yang, D Navarro-Alarcon",
+          "venue": "IEEE/ASME Transactions on Mechatronics"
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Semantics-Aware Receding Horizon Planner for Object-Centric Active Mapping",
+          "authors": "L Lu, Y Zhang, Z Peng, J Qi, Y Pan, C Fu, J Pan",
+          "venue": "IEEE Robotics and Automation Letters"
+        },
+        {
+          "year": 2024,
+          "type": "J",
+          "title": "Imitating Tool-Based Garment Folding From a Single Visual Observation Using Hand-Object Graph Dynamics",
+          "authors": "P Zhou, J Qi, A Duan, S Huo, Z Wu, D Navarro-Alarcon",
+          "venue": "IEEE Transactions on Industrial Informatics"
+        },
+        {
+          "year": 2023,
+          "type": "J",
+          "title": "Adaptive shape servoing of elastic rods using parameterized regression features and auto-tuning motion controls",
+          "authors": "J Qi, G Ran, B Wang, J Liu, W Ma, P Zhou, D Navarro-Alarcon",
+          "venue": "IEEE Robotics and Automation Letters 9 (2), 1428-1435"
+        },
+        {
+          "year": 2023,
+          "type": "J",
+          "title": "Neural reactive path planning with Riemannian motion policies for robotic silicone sealing",
+          "authors": "P Zhou, P Zheng, J Qi, C Li, A Duan, M Xu, V Wu, D Navarro-Alarcon",
+          "venue": "Robotics and Computer-Integrated Manufacturing 81, 102518"
+        },
+        {
+          "year": 2023,
+          "type": "J",
+          "title": "A distributed dynamic framework to allocate collaborative tasks based on capability matching in heterogeneous multirobot systems",
+          "authors": "HY Lee, P Zhou, B Zhang, L Qiu, B Fan, A Duan, J Tang, TL Lam, ...",
+          "venue": "IEEE Transactions on Cognitive and Developmental Systems 16 (1), 251-265"
+        },
+        {
+          "year": 2023,
+          "type": "J",
+          "title": "A multisensor interface to improve the learning experience in arc welding training tasks",
+          "authors": "HY Lee, P Zhou, A Duan, J Wang, V Wu, D Navarro-Alarcon",
+          "venue": "IEEE Transactions on Human-Machine Systems 53 (3), 619-628"
+        },
+        {
+          "year": 2022,
+          "type": "J",
+          "title": "A bio-inspired mechanism for learning robot motion from mirrored human demonstrations",
+          "authors": "O Zahra, S Tolu, P Zhou, A Duan, D Navarro-Alarcon",
+          "venue": "Frontiers in neurorobotics 16, 826410"
+        },
+        {
+          "year": 2022,
+          "type": "J",
+          "title": "Keypoint-based planar bimanual shaping of deformable linear objects under environmental constraints with hierarchical action framework",
+          "authors": "S Huo, A Duan, C Li, P Zhou, W Ma, H Wang, D Navarro-Alarcon",
+          "venue": "IEEE Robotics and Automation Letters 7 (2), 5222-5229"
+        },
+        {
+          "year": 2022,
+          "type": "J",
+          "title": "Towards latent space based manipulation of elastic rods using autoencoder models and robust centerline extractions",
+          "authors": "J Qi, G Ma, P Zhou, H Zhang, Y Lyu, D Navarro-Alarcon",
+          "venue": "Advanced Robotics 36 (3), 101-115"
+        },
+        {
+          "year": 2021,
+          "type": "J",
+          "title": "Contour moments based manipulation of composite rigid-deformable objects with finite time model estimation and shape/position control",
+          "authors": "J Qi, G Ma, J Zhu, P Zhou, Y Lyu, H Zhang, D Navarro-Alarcon",
+          "venue": "IEEE/ASME transactions on mechatronics 27 (5), 2985-2996"
+        },
+        {
+          "year": 2021,
+          "type": "J",
+          "title": "Keypoint-based bimanual shaping of deformable linear objects under environmental constraints using hierarchical action planning",
+          "authors": "S Huo, A Duan, C Li, P Zhou, W Ma, D Navarro-Alarcon",
+          "venue": "IEEE Robotics and Automation Letters"
+        },
+        {
+          "year": 2021,
+          "type": "J",
+          "title": "LaSeSOM: A Latent and Semantic Representation Framework for Soft Object Manipulation",
+          "authors": "P Zhou, J Zhu, S Huo, D Navarro-Alarcon",
+          "venue": "IEEE Robotics and Automation Letters 6 (3 …",
+          "award": "ICRA Workshop Best Paper Award"
+        },
+        {
+          "year": 2021,
+          "type": "J",
+          "title": "Path Planning with Automatic Seam Extraction over Point Cloud Models for Robotic Arc Welding",
+          "authors": "P Zhou, VW Rui Peng, Maggie Xu, D Navarro-Alarcon",
+          "venue": "IEEE Robotics and Automation Letters"
+        },
+        {
+          "year": 2020,
+          "type": "J",
+          "title": "Quadcopter robot control based on hybrid brain–computer interface system",
+          "authors": "C Chen, P Zhou, AN Belkacem, L Lu, R Xu, X Wang, W Tan, Z Qiao, P Li, ...",
+          "venue": "Sensors and Materials 32 (3), 991-1004"
+        },
+        {
+          "year": 2017,
+          "type": "J",
+          "title": "A proof of concept study for criminal network analysis with interactive strategies",
+          "authors": "P Zhou, Y Liu, M Zhao, X Lou",
+          "venue": "International Journal of Software Engineering and Knowledge Engineering 27 …"
+        }
+      ]
+    },
+    {
+      "title": "Conference Papers",
+      "papers": [
+        {
+          "year": 2026,
+          "type": "C",
+          "title": "Learning a Kinodynamic Trajectory Manifold for Impact-Aware Compliant Catching of Fast-Moving Objects",
+          "authors": "G Pei, M Zhang, X Chen, J Wu, J Qi, P Zhou*",
+          "venue": "2026 IEEE International Conference on Mechatronics …",
+          "award": "Best Conference Paper"
+        },
+        {
+          "year": 2025,
+          "type": "C",
+          "title": "UniBiDex: A Unified Teleoperation Framework for Robotic Bimanual Dexterous Manipulation",
+          "authors": "Z Li, Z Guo, J Hu, D Navarro-Alarcon, J Pan, H Wu, P Zhou*",
+          "venue": "2025 IEEE International Conference on …",
+          "award": "T. J. Tarn Best Paper Finalist"
+        },
+        {
+          "year": 2025,
+          "type": "C",
+          "title": "Learning to Hang Crumpled Garments with Confidence-Guided Grasping and Active Perception",
+          "authors": "S Huo, H Zhang, HY Lee, P Zhou, D Navarro-Alarcon",
+          "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems …"
+        },
+        {
+          "year": 2025,
+          "type": "C",
+          "title": "Alignbot: Aligning vlm-powered customized task planning with user reminders through fine-tuning for household robots",
+          "authors": "P Chen, Z Wu, J Sun, D Wang, P Zhou, N Cao, Y Ding, B Zhao, X Li",
+          "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA), 12549 …"
+        },
+        {
+          "year": 2025,
+          "type": "C",
+          "title": "Instruction-augmented long-horizon planning: Embedding grounding mechanisms in embodied mobile manipulation",
+          "authors": "F Wang, S Lyu, P Zhou, A Duan, G Guo, D Navarro-Alarcon",
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence 39 (14), 14690 …"
+        },
+        {
+          "year": 2024,
+          "type": "C",
+          "title": "A Counterfactual Neural Causal Model for Interactive Recommendation",
+          "authors": "J Liu, Z He, P Zhou, X Su, J Li",
+          "venue": "2024 27th International Conference on Computer Supported Cooperative Work in …"
+        },
+        {
+          "year": 2021,
+          "type": "C",
+          "title": "A novel approach to model the kinematics of human fingers based on an elliptic multi-joint configuration",
+          "authors": "Z Wu, L Labazanova, P Zhou, D Navarro-Alarcon",
+          "venue": "2021 20th International Conference on Advanced Robotics (ICAR), 777-784"
+        },
+        {
+          "year": 2016,
+          "type": "C",
+          "title": "Criminal Network Analysis with Interactive Strategies: A Proof of Concept Study using Mobile Call Logs.",
+          "authors": "P Zhou, Y Liu, M Zhao, X Lou",
+          "venue": "SEKE, 261-266"
+        }
+      ]
+    },
+    {
+      "title": "Preprints",
+      "papers": [
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "Proprioceptive Sketches as Long-Horizon Intent for Generative Action Policies",
+          "authors": "F Wang, S Huang, H Sun, S Lyu, C He, A Duan, P Zhou, ...",
+          "venue": "arXiv preprint arXiv:2610.02759",
+          "url": "https://arxiv.org/abs/2610.02759"
+        },
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "Can a Robot Read Braille?-Learning to Adapt Contact via Imitation Learning for Tactile Braille Recognition",
+          "authors": "X Chen, Y Shan, S Chen, J Hu, Z Li, S Zhang, S Liu, Z Zhao, K Jovanovic, ...",
+          "venue": "arXiv preprint arXiv:2609.30676",
+          "url": "https://arxiv.org/abs/2609.30676"
+        },
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "CAMP: Cooperative Arm-Hand Motion Planning in Constrained Spaces",
+          "authors": "Z Wang, Y Shan, F Mo, S Liu, D Navarro-Alarcon, J Pan, K Jovanovic, ...",
+          "venue": "arXiv preprint arXiv:2609.29021",
+          "url": "https://arxiv.org/abs/2609.29021"
+        },
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "Outcome-Sensitive Motion Search for Impact-Aware Dexterous Catching",
+          "authors": "G Pei, J Wu, S Su, J Qi, S Liu, D Navarro-Alarcon, B Liu, P Zhou",
+          "venue": "arXiv preprint arXiv:2609.29020",
+          "url": "https://arxiv.org/abs/2609.29020"
+        },
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "CALM: Current Aligned Link Manipulation for Single Arm Oversized Object Lifting",
+          "authors": "J Hu, S Chen, K Jovanovic, D Navarro-Alarcon, X Wang, J Pan, P Zhou",
+          "venue": "arXiv preprint arXiv:2609.29017",
+          "url": "https://arxiv.org/abs/2609.29017"
+        },
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "Phase-and-First-Arrival VLM Feedback for Sparse-Reward Reinforcement Learning in Surgical Manipulation",
+          "authors": "W Liuchen, F Wang, B Li, A Duan, Y Liu, P Zhou, D Navarro-Alarcon",
+          "venue": "arXiv preprint arXiv:2609.07211",
+          "url": "https://arxiv.org/abs/2609.07211"
+        },
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "Dressing in Motion: A Human Motion-Aware Diffusion Policy for Robot-Assisted Dressing",
+          "authors": "H Sun, F Wang, S Huang, JYW Liu, J Zhu, P Zhou, D Navarro-Alarcon",
+          "venue": "arXiv preprint arXiv:2609.04759",
+          "url": "https://arxiv.org/abs/2609.04759"
+        },
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "Vision-based tactile intelligence for robotics: Sensing, learning, and embodied manipulation",
+          "authors": "P Zhou, J Hu, S Chen, Z Zhang, H Ma, Z Lu, S Liu, X Wang, P Zheng, X Li, ...",
+          "venue": "arXiv preprint arXiv:2608.15490",
+          "url": "https://arxiv.org/abs/2608.15490"
+        },
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics",
+          "authors": "N Nelson, JT Chen, J Haworth, X Chen, L Zbinden, D Huang, ...",
+          "venue": "arXiv preprint arXiv:2604.21017",
+          "url": "https://arxiv.org/abs/2604.21017"
+        },
+        {
+          "year": 2026,
+          "type": "P",
+          "title": "Failure-aware bimanual teleoperation via conservative value guided assistance",
+          "authors": "P Zhou, Z Li, J Wu, J Qi, J Hu, D Navarro-Alarcon, J Pan, L Xie, S Zhang, ...",
+          "venue": "arXiv preprint arXiv:2602.01092",
+          "url": "https://arxiv.org/abs/2602.01092"
+        },
+        {
+          "year": 2023,
+          "type": "P",
+          "title": "Enhancing deformable object manipulation by using interactive perception and assistive tools",
+          "authors": "P Zhou",
+          "venue": "arXiv preprint arXiv:2311.09659",
+          "url": "https://arxiv.org/abs/2311.09659"
+        },
+        {
+          "year": 2023,
+          "type": "P",
+          "title": "Integrating visual foundation models for enhanced robot manipulation and motion planning: A layered approach",
+          "authors": "C Yang, P Zhou, J Qi",
+          "venue": "arXiv preprint arXiv:2309.11244",
+          "url": "https://arxiv.org/abs/2309.11244"
+        },
+        {
+          "year": 2023,
+          "type": "P",
+          "title": "Implicit Subgoal Planning with Variational Autoencoders for Long-Horizon Sparse Reward Robotic Tasks.",
+          "authors": "F Wang, A Duan, P Zhou, S Huo, G Guo, C Yang, D Navarro-Alarcon",
+          "venue": "CoRR"
+        },
+        {
+          "year": 2022,
+          "type": "P",
+          "title": "A dual-arm collaborative framework for dexterous manipulation in unstructured environments with contrastive planning",
+          "authors": "S Huo, F Wang, L Hu, P Zhou, J Zhu, H Wang, D Navarro-Alarcon",
+          "venue": "arXiv preprint arXiv:2209.05756",
+          "url": "https://arxiv.org/abs/2209.05756"
+        },
+        {
+          "year": 2021,
+          "type": "P",
+          "title": "A Multi-Sensor Interface to Improve the Teaching and Learning Experience in Arc Welding Training Tasks.",
+          "authors": "HY Lee, P Zhou, J Wang, V Wu, D Navarro-Alarcon",
+          "venue": "CoRR"
+        },
+        {
+          "year": 2020,
+          "type": "P",
+          "title": "SOMA: A Data-Driven Representation Framework for Semantic Soft Object Manipulation",
+          "authors": "P Zhou, J Zhu, D Navarro-Alarcona",
+          "venue": ""
+        }
+      ]
+    }
+  ]
+}

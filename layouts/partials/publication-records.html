@@ -1,0 +1,23 @@
+{{ if eq .Section "publications" }}
+{{ with hugo.Data.publications.groups }}
+<div class="publication-catalog">
+  {{ range . }}
+  <details class="publication-group" open>
+    <summary><h2>{{ .title }}</h2><span class="publication-count">{{ len .papers }}</span></summary>
+    <ol reversed class="publication-citations">
+      {{ range .papers }}
+      <li>
+        {{ with .authors }}{{ $authors := . | htmlEscape | replaceRE "P Zhou|周鹏" "<strong>${0}</strong>" }}<span class="citation-authors">{{ replace $authors "*" "<sup>*</sup>" | safeHTML }}</span>. {{ end }}
+        {{ if .url }}<a class="citation-title" href="{{ .url }}" target="_blank" rel="noopener noreferrer">“{{ .title }}”</a>{{ else }}<span class="citation-title">“{{ .title }}”</span>{{ end }}.
+        {{ with .venue }}<em>{{ . }}</em>, {{ end }}{{ with .year }}<span class="citation-year">{{ . }}</span>{{ end }}.
+        {{ with .award }}<span class="citation-award">{{ . }}</span>{{ end }}
+        {{ if not .venue }}<span class="citation-note">Publication details pending.</span>{{ end }}
+        {{ if not .url }}<a class="citation-search" href="https://scholar.google.com/scholar?q={{ .title | urlquery }}" target="_blank" rel="noopener noreferrer" aria-label="Search Google Scholar for {{ .title }}">Scholar ↗</a>{{ end }}
+      </li>
+      {{ end }}
+    </ol>
+  </details>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

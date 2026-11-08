@@ -1,0 +1,48 @@
+baseURL: /
+locale: en-US
+title: GMI Lab · General Manipulation Intelligence
+enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+  - term
+
+params:
+  description: General Manipulation Intelligence Lab at Great Bay University.
+  labName: GMI Lab
+  fullName: General Manipulation Intelligence
+  university: Great Bay University
+  email: pzhou@gbu.edu.cn
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Research
+      pageRef: /research
+      weight: 20
+    - name: Team
+      pageRef: /team
+      weight: 30
+    - name: Publications
+      pageRef: /publications
+      weight: 40
+    - name: Facility
+      pageRef: /facility
+      weight: 50
+    - name: Fun Stuff
+      pageRef: /fun
+      weight: 60
+    - name: 中文
+      pageRef: /zh
+      weight: 70
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS

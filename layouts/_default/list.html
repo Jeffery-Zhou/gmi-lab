@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1 class="sr-only">{{ .Title }}</h1>
+  <article class="shell content-page content-page-compact{{ if eq .Section "facility" }} facility-page{{ end }}{{ if eq .Section "research" }} research-page{{ end }}{{ if not (in (slice "publications" "research") .Section) }} reveal{{ end }}">
+    {{ .Content }}
+    {{ partial "research-topics.html" . }}
+    {{ partial "publication-records.html" . }}
+    {{ partial "team-members.html" . }}
+    {{ partial "special-issues.html" . }}
+    {{ if .Pages }}<div class="page-cards">{{ range .Pages.ByWeight }}<a href="{{ .RelPermalink }}"><span>{{ .Params.eyebrow }}</span><h2>{{ .Title }}</h2><p>{{ .Description }}</p><b>Explore →</b></a>{{ end }}</div>{{ end }}
+  </article>
+{{ end }}

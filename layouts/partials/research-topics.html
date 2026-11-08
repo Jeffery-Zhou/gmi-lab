@@ -1,0 +1,40 @@
+{{ with .Params.research_topics }}
+<div class="research-topics">
+  {{ range . }}
+  <section class="research-topic">
+    <h3>{{ .title }}</h3>
+    {{ range .projects }}
+    <section class="research-project">
+      <h4>{{ .title }}</h4>
+      {{ with .description }}<p>{{ . }}</p>{{ end }}
+      {{ if .paper_url }}<p><a class="research-paper-link" href="{{ .paper_url }}" target="_blank" rel="noopener noreferrer">{{ .paper_title }} ↗</a></p>{{ end }}
+      {{ with .highlights }}<ul class="research-highlights">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+      {{ with .figure }}
+      <figure class="research-feature-figure">
+        <a href="{{ .src }}" target="_blank" rel="noopener noreferrer"><img src="{{ .src }}" alt="{{ .caption }}" loading="lazy" decoding="async"></a>
+        <figcaption>{{ .caption }}</figcaption>
+      </figure>
+      {{ end }}
+      {{ with .media }}
+      <div class="research-media-grid">
+        {{ range . }}
+        <figure>
+          {{ if eq .kind "video" }}
+          <video src="{{ .src }}" controls playsinline preload="metadata" aria-label="{{ .caption }}">Your browser does not support video. <a href="{{ .src }}">Open video</a>.</video>
+          {{ else }}
+          <a href="{{ .src }}" target="_blank" rel="noopener noreferrer"><img src="{{ .src }}" alt="{{ .caption }}" loading="lazy" decoding="async"></a>
+          {{ end }}
+          <figcaption>{{ .caption }}</figcaption>
+        </figure>
+        {{ end }}
+      </div>
+      {{ end }}
+    </section>
+    {{ end }}
+  </section>
+  {{ end }}
+</div>
+{{ end }}
+{{ with .Params.research_more_url }}
+<p class="research-more">For more work, please visit <a href="{{ . }}" target="_blank" rel="noopener noreferrer">our Bilibili collection ↗</a>.</p>
+{{ end }}

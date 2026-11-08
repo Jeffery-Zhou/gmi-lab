@@ -1,0 +1,26 @@
+{{ with .Params.team_groups }}
+  <div class="team-members">
+    {{ range . }}
+      <section class="team-group" aria-label="{{ .title }}">
+        <h2>{{ .title }}</h2>
+        <div class="team-grid">
+          {{ range .members }}
+            <article class="team-card">
+              <img class="team-photo" src="{{ .image | relURL }}" alt="{{ .name }}" width="480" height="480" loading="lazy">
+              <div class="team-card-copy">
+                {{ with .badge }}<span class="team-badge">{{ . }}</span>{{ end }}
+                <h3>{{ .name }}</h3>
+                {{ with .role }}<p class="team-role">{{ . }}</p>{{ end }}
+                {{ with .affiliation }}<p class="team-affiliation">{{ . }}</p>{{ end }}
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+    <section class="team-join">
+      <h2>Join us</h2>
+      <p>We welcome Ph.D. students, research interns, and visiting researchers interested in robotic manipulation. Send a short introduction, your CV, and a research interest to <a href="mailto:{{ site.Params.email }}">pzhou AT gbu DOT edu DOT cn</a>.</p>
+    </section>
+  </div>
+{{ end }}
