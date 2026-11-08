@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v7
       - name: Install Hugo
         run: |
-          curl --fail --location --retry 3 --output "${RUNNER_TEMP}/hugo.tar.gz" "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl --fail --location --retry 3 --output "${RUNNER_TEMP}/hugo.tar.gz" "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz?run=${GITHUB_RUN_ID}&attempt=${GITHUB_RUN_ATTEMPT}"
           mkdir -p "${RUNNER_TEMP}/hugo-bin"
           tar -xzf "${RUNNER_TEMP}/hugo.tar.gz" -C "${RUNNER_TEMP}/hugo-bin" hugo
           echo "${RUNNER_TEMP}/hugo-bin" >> "${GITHUB_PATH}"
