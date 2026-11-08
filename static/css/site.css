@@ -17,6 +17,31 @@
   --shadow: 0 24px 70px rgba(49, 19, 100, .13);
 }
 
+.team-profile-link { display: inline-block; margin-top: 10px; color: var(--purple-700); font-weight: 600; }
+.team-profile-link:hover, .profile-page a:hover { text-decoration: underline; }
+.profile-page { max-width: 960px; padding-block: 32px 56px; }
+.profile-back { color: var(--purple-700); font-size: 15px; }
+.profile-header { display: flex; align-items: center; gap: 32px; margin: 24px 0 32px; padding-bottom: 32px; border-bottom: 1px solid var(--line); }
+.profile-portrait { flex: 0 0 auto; width: 180px; height: 180px; border-radius: 16px; object-fit: cover; object-position: center; }
+.profile-header h1 { margin: 0 0 8px; color: var(--purple-800); font-size: clamp(32px, 4vw, 44px); line-height: 1.2; }
+.profile-role { margin: 0; font-size: 20px; font-weight: 500; }
+.profile-affiliation { margin: 4px 0 0; color: var(--muted); }
+.profile-links { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 18px; }
+.profile-links a, .profile-body a { color: var(--purple-700); text-decoration: underline; text-underline-offset: 3px; }
+.profile-body { font-size: 17px; line-height: 1.8; }
+.profile-body h2 { margin: 32px 0 12px; color: var(--purple-800); font-size: 27px; line-height: 1.3; }
+.profile-body h3 { margin: 20px 0 8px; font-size: 21px; }
+.profile-body p { margin: 0 0 16px; }
+.profile-body ul { padding-left: 23px; }
+.profile-body li { margin: 8px 0; }
+.profile-body li::marker { color: var(--purple-600); }
+.profile-page a:focus-visible, .team-profile-link:focus-visible { outline: 3px solid var(--purple-600); outline-offset: 4px; }
+@media (max-width: 600px) {
+  .profile-header { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .profile-portrait { width: 140px; height: 140px; }
+  .profile-body { font-size: 16px; }
+}
+
 * { box-sizing: border-box; }
 html { overflow-x: hidden; scroll-behavior: smooth; }
 body { margin: 0; overflow-x: hidden; background: var(--white); color: var(--ink); font-family: "Roboto", system-ui, sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }

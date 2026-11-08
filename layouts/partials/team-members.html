@@ -12,6 +12,7 @@
                 <h3>{{ .name }}</h3>
                 {{ with .role }}<p class="team-role">{{ . }}</p>{{ end }}
                 {{ with .affiliation }}<p class="team-affiliation">{{ . }}</p>{{ end }}
+                {{ with .profile }}<a class="team-profile-link" href="{{ . | relURL }}">View profile →</a>{{ end }}
               </div>
             </article>
           {{ end }}

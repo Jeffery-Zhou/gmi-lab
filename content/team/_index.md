@@ -6,6 +6,7 @@ team_groups:
   - title: "Principal Investigator"
     members:
       - name: "Dr. Peng Zhou"
+        profile: "/people/peng-zhou/"
         role: "Principal Investigator (PI)"
         affiliation: "Great Bay University"
         image: "/images/team/team_pi.png"

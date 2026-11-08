@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="shell profile-page">
+  <a class="profile-back" href="{{ "team/" | relURL }}">← Back to Team</a>
+  <header class="profile-header">
+    <img class="profile-portrait" src="{{ .Params.portrait | relURL }}" alt="{{ .Title }}" width="200" height="200">
+    <div>
+      <h1>{{ .Title }}</h1>
+      <p class="profile-role">{{ .Params.role }}</p>
+      <p class="profile-affiliation">{{ .Params.affiliation }}</p>
+      <nav class="profile-links" aria-label="Peng Zhou links">
+        <a href="https://scholar.google.com/citations?user=y8CcXFoAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+        <a href="https://github.com/Jeffery-Zhou" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="mailto:{{ site.Params.email }}">Contact →</a>
+      </nav>
+    </div>
+  </header>
+  <div class="profile-body">{{ .Content }}</div>
+</article>
+{{ end }}
