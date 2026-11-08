@@ -9,15 +9,13 @@ team_groups:
         role: "Principal Investigator (PI)"
         affiliation: "Great Bay University"
         image: "/images/team/team_pi.png"
-  - title: "Research Staff"
+  - title: "Research Staff, Students & Visitors"
     members:
       - name: "Dr. Jun Hu"
         role: "Postdoc Researcher (2025)"
         badge: "Manager"
         affiliation: "Tsinghua Shenzhen International Graduate School"
         image: "/images/team/mem_Hujun.jpg"
-  - title: "Students & Visitors"
-    members:
       - name: "Zhongxun Li"
         role: "Visiting Ph.D. Student"
         affiliation: "The University of Hong Kong"
