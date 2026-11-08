@@ -256,9 +256,11 @@ h2 { margin: 0; font: 750 clamp(35px, 4.2vw, 58px)/1.08 "Roboto Condensed", sans
 .research-project p, .research-highlights { color: var(--muted); font-size: 16px; line-height: 1.8; }
 .research-paper-link { color: var(--purple-700); font-weight: 600; }
 .research-paper-link:hover { text-decoration: underline; }
-.research-page > .research-more { margin: 28px 0 0; padding-top: 22px; border-top: 1px solid var(--line); font-size: 17px; }
-.research-more a { color: var(--purple-700); font-weight: 650; }
-.research-more a:hover { text-decoration: underline; }
+.research-page > .research-more { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin: 0 0 28px; padding: 20px 24px; border-left: 4px solid var(--purple-600); border-radius: 8px; background: var(--purple-100); }
+.research-more p { margin: 0; color: var(--purple-800); font-size: 18px; }
+.research-more a { display: inline-flex; align-items: center; padding: 12px 18px; border-radius: 6px; background: var(--purple-700); color: #fff; font-size: 18px; font-weight: 650; text-decoration: none; }
+.research-more a:hover { background: var(--purple-800); text-decoration: underline; }
+.research-more a:focus-visible { outline: 3px solid var(--purple-600); outline-offset: 4px; }
 .research-media-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 20px; }
 .research-media-grid figure { min-width: 0; margin: 0; }
 .research-feature-figure { margin: 20px 0; }

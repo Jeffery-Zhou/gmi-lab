@@ -1,3 +1,9 @@
+{{ with .Params.research_more_url }}
+<div class="research-more">
+  <p>For more work, please visit</p>
+  <a href="{{ . }}" target="_blank" rel="noopener noreferrer">our Bilibili collection ↗</a>
+</div>
+{{ end }}
 {{ with .Params.research_topics }}
 <div class="research-topics">
   {{ range . }}
@@ -34,7 +40,4 @@
   </section>
   {{ end }}
 </div>
-{{ end }}
-{{ with .Params.research_more_url }}
-<p class="research-more">For more work, please visit <a href="{{ . }}" target="_blank" rel="noopener noreferrer">our Bilibili collection ↗</a>.</p>
 {{ end }}
