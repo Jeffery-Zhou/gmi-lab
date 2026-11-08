@@ -1,4 +1,4 @@
-# gmi-lab-website
+# gmi-lab
 
 GMI Lab website at Great Bay University, built with Hugo.
 
@@ -32,6 +32,6 @@ This repository is public. In Settings > Pages, **GitHub Actions** is selected a
 The deployment workflow runs on pushes to `main` and can also be started manually from Actions. It builds with the Pages base URL and canonicalizes site links for project-subdirectory hosting. The workflow publishes the built website; the source is available in this public repository.
 
 Expected URL after a successful deployment:
-https://jeffery-zhou.github.io/gmi-lab-website/
+https://jeffery-zhou.github.io/gmi-lab/
 
 Do not include secrets or private-only documents in this public repository.
