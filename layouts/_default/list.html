@@ -1,6 +1,6 @@
 {{ define "main" }}
   <h1 class="sr-only">{{ .Title }}</h1>
-  <article class="shell content-page content-page-compact{{ if eq .Section "facility" }} facility-page{{ end }}{{ if eq .Section "research" }} research-page{{ end }}{{ if not (in (slice "publications" "research") .Section) }} reveal{{ end }}">
+  <article class="shell content-page content-page-compact{{ if eq .Section "facility" }} facility-page{{ end }}{{ if eq .Section "research" }} research-page{{ end }}{{ if eq .Section "zh" }} chinese-page{{ end }}{{ if not (in (slice "publications" "research") .Section) }} reveal{{ end }}">
     {{ .Content }}
     {{ partial "research-topics.html" . }}
     {{ partial "publication-records.html" . }}
